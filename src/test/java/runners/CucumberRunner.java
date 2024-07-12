@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
                 "pretty"
         },
         features = "src/test/resources/features",
-        glue = "src/test/java/step_definitions",
-        dryRun = true,
+        glue = "step_definitions",
+        dryRun = false,
         tags = "@wip",
         publish = true //generating a report with public link
 

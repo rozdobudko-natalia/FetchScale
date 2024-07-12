@@ -11,7 +11,7 @@ public class Hooks {
     @After
     public void teardownMethod(Scenario scenario){
 
-        System.out.println("---> @After: RUNNING AFTER EACH SCENARIO");
+        //---> @After: RUNNING AFTER EACH SCENARIO
 
         if (scenario.isFailed()){
 
