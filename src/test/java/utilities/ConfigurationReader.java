@@ -16,7 +16,7 @@ configuration.properties file
 
         try {
 
-            FileInputStream file = new FileInputStream("configuration.properties");
+            FileInputStream file = new FileInputStream("src/configuration.properties");
             properties.load(file);
             file.close();
 
